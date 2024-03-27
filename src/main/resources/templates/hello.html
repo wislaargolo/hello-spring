@@ -6,7 +6,8 @@
 </head>
 <body>
 <div class="message">
-    <h1 th:text="${message}"></h1>
+    <h1 th:text="'Contagem: ' + ${greeting.id()}"></h1>
+    <p th:text="${greeting.content()}"></p>
 </div>
 </body>
 </html>
