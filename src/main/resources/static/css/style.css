@@ -1,0 +1,18 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FDFEFE;
+    text-align: center;
+    padding: 50px;
+}
+h1 {
+    color: #CD5C5C;
+}
+.message {
+    background-color: #F0F3F4;
+    border: 1px solid #BDC3C7;
+    padding: 20px;
+    margin: 50px auto;
+    width: 50%;
+    max-width: 600px;
+    border-radius: 50px;
+}
